@@ -1,38 +1,62 @@
 .App {
+  font-family: Arial, "Roboto";
   text-align: center;
+  margin: 20px;
+  background-image: linear-gradient(to right, #f0f7f6, rgba(59,130,246,.5));
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form {
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input {
+  margin: 5px;
+  padding: 10px;
+  width: 200px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-image: linear-gradient(to right, #084951, #3b0442);
   color: white;
+  border: none;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #590e5d;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+
+.heading{
+  font-family: "Roboto";
+
+}
+
+.buyer-input{
+  
+  color: rgb(6, 82, 6);
+}
+
+.seller-input {
+  color: red;
+  
 }
